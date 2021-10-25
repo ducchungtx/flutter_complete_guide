@@ -9,7 +9,9 @@ class CharBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return LayoutBuilder(builder: (ctx, constraint) {
+
+    },) Column(
       children: <Widget>[
         Container(
             height: 20,
